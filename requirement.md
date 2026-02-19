@@ -57,7 +57,7 @@ sudo pacman -Sy --needed gnome-menus
 
 ## Requirement for Install fluent-gtk-theme
 
-> run to install sassc at debian
+> run to install [sassc](https://archlinux.org/packages/extra/x86_64/sassc/) at archlinux
 
 ``` sh
 sudo pacman -Sy --needed sassc
