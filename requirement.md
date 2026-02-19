@@ -16,10 +16,10 @@
 | [pipx](https://github.com/pypa/pipx) | for install gnome-extensions-cli |
 | [gnome-extensions-cli](https://github.com/essembeh/gnome-extensions-cli) | for install extension |
 
-> run to install [pipx](https://packages.debian.org/stable/pipx) at debian
+> run to install [python-pipx](https://archlinux.org/packages/extra/any/python-pipx/) at archlinux
 
 ``` sh
-sudo apt-get install pipx
+sudo pacman -Sy --needed python-pipx
 ```
 
 > run to install gnome-extensions-cli (gext)
@@ -35,12 +35,12 @@ sudo pipx install gnome-extensions-cli --global
 
 | Requirement | Note |
 | ----------- | ---- |
-| [gir1.2-gmenu-3.0](https://packages.debian.org/stable/gir1.2-gmenu-3.0) | for [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/) |
+| [gnome-menus](https://archlinux.org/packages/extra/x86_64/gnome-menus/) | for [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/) |
 
-> run to install gir1.2-gmenu-3.0 at debian
+> run to install [gnome-menus](https://archlinux.org/packages/extra/x86_64/gnome-menus/) at archlinux
 
 ``` sh
-sudo apt-get install gir1.2-gmenu-3.0
+sudo pacman -Sy --needed gnome-menus
 ```
 
 > ArcMenu Requires GMenu Package:
@@ -60,5 +60,5 @@ sudo apt-get install gir1.2-gmenu-3.0
 > run to install sassc at debian
 
 ``` sh
-sudo apt-get install sassc
+sudo pacman -Sy --needed sassc
 ```
